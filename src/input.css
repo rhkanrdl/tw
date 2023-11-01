@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("/dist/font/NotoSansKR-Thin.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Thin.woff") format("woff"),
+    url("/dist/font/NotoSansKR-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("/dist/font/NotoSansKR-Light.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Light.woff") format("woff"),
+    url("/dist/font/NotoSansKR-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("/dist/font/NotoSansKR-Regular.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Regular.woff2") format("woff"),
+    url("/dist/font/NotoSansKR-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("/dist/font/NotoSansKR-Medium.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Medium.woff") format("woff"),
+    url("/dist/font/NotoSansKR-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("/dist/font/NotoSansKR-Bold.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Bold.woff") format("woff"),
+    url("/dist/font/NotoSansKR-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("/dist/font/NotoSansKR-Black.woff2") format("woff2"),
+    url("/dist/font/NotoSansKR-Black.woff") format("woff"),
+    url("/dist/font/NotoSansKR-Black.otf") format("opentype");
+}
+
+@layer base {
+  html {
+    font-family: "Noto Sans KR", sans-serif;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pc\:menu-background::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 108px;
+    height: 360px;
+    background: #fff;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+}
