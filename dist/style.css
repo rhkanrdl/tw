@@ -638,20 +638,16 @@ html {
   height: 18px;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
 .h-\[40px\] {
   height: 40px;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
 .h-\[600px\] {
   height: 600px;
+}
+
+.h-\[60px\] {
+  height: 60px;
 }
 
 .w-\[135px\] {
@@ -728,27 +724,23 @@ html {
 }
 
 .bg-alert {
-  background-image: url('/dist/image/icon-alert.svg');
-}
-
-.bg-flogo {
-  background-image: url('/dist/image/footer-logo.svg');
+  background-image: url('./image/icon-alert.svg');
 }
 
 .bg-logo {
-  background-image: url('/dist/image/logo.png');
+  background-image: url('./image/logo.png');
 }
 
 .bg-menu {
-  background-image: url('/dist/image/icon-menu.svg');
+  background-image: url('./image/icon-menu.svg');
 }
 
 .bg-search {
-  background-image: url('/dist/image/icon-search.svg');
+  background-image: url('./image/icon-search.svg');
 }
 
 .bg-user {
-  background-image: url('/dist/image/icon-user.svg');
+  background-image: url('./image/icon-user.svg');
 }
 
 .bg-\[length\:auto_18px\] {
@@ -1140,11 +1132,7 @@ html {
   }
 
   .pc\:bg-flogo {
-    background-image: url('/dist/image/footer-logo.svg');
-  }
-
-  .pc\:bg-center {
-    background-position: center;
+    background-image: url('./image/footer-logo.svg');
   }
 
   .pc\:bg-left-top {
@@ -1174,16 +1162,16 @@ html {
     padding-right: 20px;
   }
 
+  .pc\:pb-\[40px\] {
+    padding-bottom: 40px;
+  }
+
   .pc\:pl-0 {
     padding-left: 0px;
   }
 
   .pc\:pl-\[204px\] {
     padding-left: 204px;
-  }
-
-  .pc\:pb-\[40px\] {
-    padding-bottom: 40px;
   }
 
   .pc\:text-left {

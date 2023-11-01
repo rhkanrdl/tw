@@ -21,13 +21,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        logo: "url('/dist/image/logo.png')",
-        flogo: "url('/dist/image/footer-logo.svg')",
+        logo: "url('./image/logo.png')",
+        flogo: "url('./image/footer-logo.svg')",
 
-        alert: "url('/dist/image/icon-alert.svg')",
-        search: "url('/dist/image/icon-search.svg')",
-        user: "url('/dist/image/icon-user.svg')",
-        menu: "url('/dist/image/icon-menu.svg')",
+        alert: "url('./image/icon-alert.svg')",
+        search: "url('./image/icon-search.svg')",
+        user: "url('./image/icon-user.svg')",
+        menu: "url('./image/icon-menu.svg')",
       },
     },
   },
