@@ -23,9 +23,11 @@ module.exports = {
       backgroundImage: {
         logo: "url('./image/logo.png')",
         flogo: "url('./image/footer-logo.svg')",
+        searchbg: "url('./image/search-bg.svg')",
 
         alert: "url('./image/icon-alert.svg')",
         search: "url('./image/icon-search.svg')",
+        close: "url('./image/icon-close.svg')",
         user: "url('./image/icon-user.svg')",
         menu: "url('./image/icon-menu.svg')",
       },
