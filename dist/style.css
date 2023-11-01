@@ -630,6 +630,10 @@ html {
   bottom: -80px;
 }
 
+.-left-\[5px\] {
+  left: -5px;
+}
+
 .z-\[200\] {
   z-index: 200;
 }
@@ -1291,6 +1295,21 @@ html {
   right: 20px;
 }
 
+.after\:-left-\[5px\]::after {
+  content: var(--tw-content);
+  left: -5px;
+}
+
+.after\:-top-\[-5px\]::after {
+  content: var(--tw-content);
+  top: 5px;
+}
+
+.after\:-left-\[12px\]::after {
+  content: var(--tw-content);
+  left: -12px;
+}
+
 .after\:block::after {
   content: var(--tw-content);
   display: block;
@@ -1396,6 +1415,14 @@ html {
 
   .pc\:top-\[48px\] {
     top: 48px;
+  }
+
+  .pc\:left-auto {
+    left: auto;
+  }
+
+  .pc\:left-0 {
+    left: 0px;
   }
 
   .pc\:m-0 {
@@ -1683,6 +1710,21 @@ html {
   .pc\:before\:w-\[100px\]::before {
     content: var(--tw-content);
     width: 100px;
+  }
+
+  .pc\:after\:right-\[20px\]::after {
+    content: var(--tw-content);
+    right: 20px;
+  }
+
+  .pc\:after\:top-\[5px\]::after {
+    content: var(--tw-content);
+    top: 5px;
+  }
+
+  .pc\:after\:left-auto::after {
+    content: var(--tw-content);
+    left: auto;
   }
 
   .pc\:after\:inline-block::after {
