@@ -92,3 +92,7 @@
 .notice-pagination span.swiper-pagination-bullet-active {
   background: #2b4390;
 }
+
+#saveid:checked + label::before {
+  background-color: #db8d40;
+}

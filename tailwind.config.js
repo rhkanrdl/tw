@@ -33,6 +33,10 @@ module.exports = {
         menu: "url('./image/icon-menu.svg')",
         arrowleft: "url('./image/icon-left.svg')",
         arrowright: "url('./image/icon-right.svg')",
+        checkw: "url('./image/icon-check.svg')",
+
+        naver: "url('./image/icon-naver.svg')",
+        kakao: "url('./image/icon-kakao.svg')",
 
         link1: "url('./image/link-1.svg')",
         link2: "url('./image/link-2.svg')",
