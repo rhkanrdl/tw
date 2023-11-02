@@ -71,9 +71,24 @@
     z-index: -1;
     left: 0;
     right: 0;
-    top: 108px;
+    top: 109px;
     height: 360px;
     background: #fff;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
   }
+}
+
+.notice-pagination {
+  width: auto !important;
+}
+
+.notice-pagination span {
+  width: 11.5px;
+  height: 11.5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+
+.notice-pagination span.swiper-pagination-bullet-active {
+  background: #2b4390;
 }

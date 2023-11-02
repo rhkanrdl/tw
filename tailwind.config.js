@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
+
   theme: {
     fontSize: {
       zero: "0px",
@@ -30,6 +31,20 @@ module.exports = {
         close: "url('./image/icon-close.svg')",
         user: "url('./image/icon-user.svg')",
         menu: "url('./image/icon-menu.svg')",
+        arrowleft: "url('./image/icon-left.svg')",
+        arrowright: "url('./image/icon-right.svg')",
+
+        link1: "url('./image/link-1.svg')",
+        link2: "url('./image/link-2.svg')",
+        link3: "url('./image/link-3.svg')",
+        link4: "url('./image/link-4.svg')",
+        link5: "url('./image/link-5.svg')",
+        link6: "url('./image/link-6.svg')",
+        link7: "url('./image/link-7.svg')",
+        link8: "url('./image/link-8.svg')",
+
+        mainad: "url('./image/ad-bg.png')",
+        mainnotice: "url('./image/img-notice.svg')",
       },
     },
   },

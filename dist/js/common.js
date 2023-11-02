@@ -100,3 +100,33 @@ searchClose.addEventListener("click", function () {
   searchOpen.classList.add("bg-search");
   searchOpen.classList.remove("bg-close");
 });
+
+const swiper = new Swiper(".main-swiper", {
+  speed: 400,
+  spaceBetween: 20,
+  loop: true,
+  navigation: {
+    nextEl: ".main-next",
+    prevEl: ".main-prev",
+  },
+});
+
+const swiper2 = new Swiper(".notice-swiper", {
+  speed: 400,
+  spaceBetween: 20,
+  slidesPerView: 1,
+  loop: true,
+  navigation: {
+    nextEl: ".notice-next",
+    prevEl: ".notice-prev",
+  },
+  pagination: {
+    el: ".notice-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    1200: {
+      slidesPerView: 4,
+    },
+  },
+});
