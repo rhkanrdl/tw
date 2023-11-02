@@ -821,6 +821,10 @@ html {
   height: 2px;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -1068,6 +1072,10 @@ html {
   border-color: rgb(51 51 51 / var(--tw-border-opacity));
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
 .bg-\[\#03CF5D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(3 207 93 / var(--tw-bg-opacity));
@@ -1246,6 +1254,10 @@ html {
   padding: 5px;
 }
 
+.p-\[10px\] {
+  padding: 10px;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -1284,6 +1296,11 @@ html {
 .py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .pb-\[10px\] {
@@ -2244,6 +2261,10 @@ html {
 
   .pc\:h-\[82px\] {
     height: 82px;
+  }
+
+  .pc\:h-\[50px\] {
+    height: 50px;
   }
 
   .pc\:min-h-\[200px\] {
