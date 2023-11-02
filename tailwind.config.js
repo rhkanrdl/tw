@@ -22,7 +22,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        logo: "url('./image/logo.png')",
+        logo: "url('./image/logo.svg')",
         flogo: "url('./image/footer-logo.svg')",
         searchbg: "url('./image/search-bg.svg')",
 
@@ -46,6 +46,15 @@ module.exports = {
         link6: "url('./image/link-6.svg')",
         link7: "url('./image/link-7.svg')",
         link8: "url('./image/link-8.svg')",
+
+        link1on: "url('./image/link-1on.svg')",
+        link2on: "url('./image/link-2on.svg')",
+        link3on: "url('./image/link-3on.svg')",
+        link4on: "url('./image/link-4on.svg')",
+        link5on: "url('./image/link-5on.svg')",
+        link6on: "url('./image/link-6on.svg')",
+        link7on: "url('./image/link-7on.svg')",
+        link8on: "url('./image/link-8on.svg')",
 
         mainad: "url('./image/ad-bg.png')",
         mainnotice: "url('./image/img-notice.svg')",
