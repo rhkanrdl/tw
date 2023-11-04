@@ -96,3 +96,9 @@
 #saveid:checked + label::before {
   background-color: #db8d40;
 }
+
+.target input:checked + label {
+  background:#2B4390;
+  border-color:transparent;
+  color:#fff;
+}

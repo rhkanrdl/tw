@@ -35,6 +35,11 @@ module.exports = {
         arrowright: "url('./image/icon-right.svg')",
         checkw: "url('./image/icon-check.svg')",
 
+        arrowleft2: "url('./image/icon-left2.svg')",
+        arrowright2: "url('./image/icon-right2.svg')",
+        arrowrr: "url('./image/icon-rr.svg')",
+        arrowff: "url('./image/icon-ff.svg')",
+
         naver: "url('./image/icon-naver.svg')",
         kakao: "url('./image/icon-kakao.svg')",
 
