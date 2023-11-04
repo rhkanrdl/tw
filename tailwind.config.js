@@ -42,6 +42,11 @@ module.exports = {
 
         naver: "url('./image/icon-naver.svg')",
         kakao: "url('./image/icon-kakao.svg')",
+        twitter: "url('./image/icon-twitter.svg')",
+        facebook: "url('./image/icon-facebook.svg')",
+        link: "url('./image/icon-link.svg')",
+        hart: "url('./image/icon-hart.svg')",
+        print: "url('./image/icon-print.svg')",
 
         link1: "url('./image/link-1.svg')",
         link2: "url('./image/link-2.svg')",
@@ -63,6 +68,20 @@ module.exports = {
 
         mainad: "url('./image/ad-bg.png')",
         mainnotice: "url('./image/img-notice.svg')",
+
+        calendar: "url('./image/icon-calendar.svg')",
+        user2: "url('./image/icon-user2.svg')",
+        doc: "url('./image/icon-doc.svg')",
+        detail: "url('./image/icon-detail.svg')",
+        call: "url('./image/icon-call.svg')",
+        file: "url('./image/icon-file.svg')",
+        address: "url('./image/icon-house.svg')",
+        hart2: "url('./image/icon-hart2.svg')",
+        reply: "url('./image/icon-reply.svg')",
+
+        like: "url('./image/icon-like.svg')",
+        hate: "url('./image/icon-hate.svg')",
+
       },
     },
   },
